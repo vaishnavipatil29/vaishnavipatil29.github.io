@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata of the Webpage -->
+    <!-- Character-set Metadata -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="assets/js/my.js"></script>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Description Metadata-->
+    <meta name="description" content="Portfolio Website" />
+    <!-- Author Metadata -->
+    <meta name="author" content="Vaishnavi Patil" />
+    <!-- Keyword Metadata -->
+    <meta
+      name="keywords"
+      content="Vaishnavi Patil Website"
+    />
+
+    <!-- Webpage Logo <link rel="shortcut icon" href="./assets/img/favicon.ico" />-->
+     
+    <title>Vaishnavi Patil</title>
+
+    <!-- Import CSS: Main Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
+    
+
+  </head>
+  <style>
+
+    
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+    
+    .row {
+      margin: 8px -16px;
+    }
+    
+    /* Add padding BETWEEN each column (if you want) */
+    .row,
+    .row > .column {
+      padding: 8px;
+    }
+        
+    /* Clear floats after rows */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+        /* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  display: none; /* Hide columns by default */
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: blue;
+  outline: none;
+  padding: 12px 16px;
+  background-color: ghostwhite;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #666;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #666;
+   color: white;
+}
+    </style>
+
+      
+    
+
+  <body>
+    <div id="particles-js">
+      <div class="header">
+        <h1>
+          <span class="site-title">VAISHNAVI PATIL</span>
+          <span class="site-description">Programmer • Data Scientist • AI/ML Enthusiast </span>
+        </h1>
+        <div class="header-icons">
+          <a aria-label="My LinkedIn Profile" target="_blank" href="https://linkedin.com/in/vaishnavi-patil-75a714173/">
+            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Github Profile" target="_blank" href="https://github.com/vaishnavipatil29">
+            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Résumé" target="_blank" href="https://drive.google.com/file/d/1TC1S9MOdw7H6Uw-HporslOiAOTXjInmr/view?usp=sharing">
+            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+          </a>
+          <a aria-label="Send Email" href="mailto:vaishshells@gmail.com" target="_blank"
+            ><i class="icon fa fa-envelope"></i
+          ></a>
+        </div>
+        <div class="header-links">
+          <a class="link" href="#about" data-scroll>About Me</a>
+          <a class="link" href="#projects" data-scroll>Projects</a>
+          <a class="link" href="#timeline" data-scroll>My Journey</a>
+        </div>
+      </div>
+      <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+    </div>
+    
+    <!-- About Section -->
+    <section id="about">
+      <!-- User Introduction-->
+      <div class="user-details">
+        <h1>About Me</h1>
+        <picture>
+           <source 
+            type="image/webp"
+            srcset="./assets/img/webp/My_photo.webp"
+            alt="Professional Me"
+            width="25%"
+            style="border-radius: 55%"
+          /> 
+          <img
+            src="C:\Users\Vaishnavi\Desktop\Portfolio\Vaishnavi_Portfolio\assets\img\jpg\My_photo.png"
+            alt="Professional Me"
+            width="25%"
+            style="border-radius: 55%"
+          />
+        </picture>
+        <p>
+          I am a final year B.Tech student at Indian Institute Of Technology (IIT), Dharwad. I am majoring in Electrical & Electonics
+           Engineering. I am interested in exploring the fields of  Machine Learning, Deep learning, Speech processing 
+           and Data Science, and I am open to opportunities for the same. I am passionate about solving real world problems through technology and want to
+            develop sustainable, scalable and social  technical systems to create impact. 
+        </p>
+      </div>
+
+      <!-- User Specifics -->
+      <div class="user">
+        <!-- Technology Stack #1: Languages -->
+        <div class="tech">
+          <h2>Languages</h2>
+          <i class="devicon-python-plain colored"></i>
+          <i class="devicon-cplusplus-plain colored"></i> <br>
+          <i class="devicon-matlab-plain colored"></i>
+          <i class="devicon-r-original colored"></i>
+          <p>My languages skills for programming, machine learning, deep learning and data analysis.</p>
+        </div>
+
+        
+        <!-- Technology Stack #2: Frameworks -->
+        <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+
+        <div class="tech">
+          <h2>Frameworks</h2>
+          <i class="devicon-tensorflow-original-wordmark colored"></i>
+          <span class="iconify" data-icon="simple-icons:keras"></span>
+          <span class="iconify" data-icon="logos:pytorch"></span>
+          <span class="iconify" data-icon="logos:opencv"></span>
+
+          <p>My preferred Frameworks for AI/ML, Data Science and Deep learning.</p>
+        </div>
+         <!-- Technology Stack #4: Hardware Skills </i> -->
+        <div class="tech">
+          <h2>Hardware </h2>
+          <i class="devicon-arduino-plain-wordmark colored"></i> <br>
+          <i class="devicon-raspberrypi-line colored"></i>
+          <p>In hardware elctronics, I have a grasp over Arduino and Raspberry Pi, and am keen about IoT.</p>
+        </div>
+
+        <!-- Technology Stack #3: Tools -->
+        <div class="tech">
+          <h2>Tools</h2>
+          <i class="devicon-git-plain-wordmark colored"></i>
+          <i class="devicon-visualstudio-plain colored"></i> <br>
+          <i class="devicon-jupyter-plain-wordmark colored"></i>
+          <i class=""></i>
+          <p>My go to tools for version control, code editors and Ipython Notebooks.</p>
+        </div>
+
+       
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+
+  <section id="projects">
+    <!-- User Introduction-->
+    <div class="user-details">
+      <h1>My Projects</h1>
+
+      <script>
+        /*filterSelection("all")*/
+        function filterSelection(c) {
+          var x, i;
+          x = document.getElementsByClassName("column");
+          if (c == "all") c = "";
+          // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+          for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+          }
+        }
+        
+        // Show filtered elements
+        function w3AddClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {
+              element.className += " " + arr2[i];
+            }
+          }
+        }
+        
+        // Hide elements that are not selected
+        function w3RemoveClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);
+            }
+          }
+          element.className = arr1.join(" ");
+        }
+        
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+        </script>
+  
+
+      <div id="myBtnContainer">
+
+      <button class="btn active " onclick="filterSelection('all')"> Show all</button>
+      <button class="btn " onclick="filterSelection('nature')"> Machine & Deep Learning</button>
+      <button class="btn" onclick="filterSelection('cars')"> Speech Processing</button>
+      <button class="btn" onclick="filterSelection('people')"> Electronics</button>
+    </div>
+
+      <!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <img src="assets/img/jpg/sign_lang.jpg" alt="Sign Language" style="width:50%"> 
+      <h4>Sign Language Recogniton System Using Deep Learning and CV </h4>
+      <a href="https://github.com/vaishnavipatil29/Sign-Language-Recognition"> <i class="devicon-github-original colored"></i></a>
+    
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="assets/img/jpg/face_emotion.jpeg" alt="Face Emotion" style="width:55%">
+      <h4>Face Emotion Detection </h4>
+      <a href="https://github.com/vaishnavipatil29/Emotion-Detection"> <i class="devicon-github-original colored"></i></a>
+    </div>
+  </div>
+
+  <div class="column nature">
+    <div class="content">
+      <img src="assets/img/jpg/career.jpg" alt="Career Guidance System" style="width:79%">
+      <h4>Career Guidance System</h4>
+      <a href="https://github.com/vaishnavipatil29/Career-Guidance-ML-Project"> <i class="devicon-github-original colored"></i></a>
+    </div>
+  </div>
+
+  <div class="column cars">
+    <div class="content">
+      <img src="assets\img\jpg\lang_diarization.jpg" alt="Lights" style="width:100%" style="height:200%">
+      <h4>Spoken Language Identification in a Code Switched Bilingual Data </h4>
+      <i class="devicon-github-original colored"></i> 
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="assets\img\jpg\voice_chatbot.jpg" alt="Lights" style="width:95%" style="height:200%">
+      <h4>Voice Chatbot</h4>
+      <a href="https://github.com/vaishnavipatil29/Voice-Chatbot"> <i class="devicon-github-original colored"></i></a>
+    </div>
+  </div>
+
+
+  <div class="column people">
+    <div class="content">
+      <img src="assets\img\jpg\Medical-Freezer_small.jpg" alt="Lights" style="width:58%">
+      <h4>Medication Temperature Monitoring System using Bolt IoT</h4>
+      <a href="https://www.hackster.io/180020039/medication-temperature-monitoring-system-ff4d38"> <i class="devicon-github-original colored"></i></a>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="assets\img\jpg\gloves.jpg" alt="Lights" style="width:80%">
+      <h4>Gloves for sign language interpretation Using Flex Sensors</h4>
+      <a href="https://devfolio.co/submissions/interactive-gloves-an-aid-for-speech-impaired"> <i class="devicon-github-original colored"></i></a>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="assets\img\jpg\Covid.jpeg" alt="Lights" style="width:65%">
+      <h4>IoT-based Covid Monitoring System</h4>
+      <a href="https://github.com/vaishnavipatil29/EDL_CovidMS"> <i class="devicon-github-original colored"></i></a>
+    </div>
+  </div>
+
+  </div>
+
+		</div>
+	</section>
+
+<style>
+  
+ 
+  @font-face {
+    font-family: 'ESL Legend';
+    src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.eot);
+    src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.eot#iefix) format("embedded-opentype"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.woff2) format("woff2"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.woff) format("woff"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.ttf) format("truetype"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Light.svg#eicon) format("svg");
+    font-style: normal;
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'ESL Legend';
+    src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.eot);
+    src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.eot#iefix) format("embedded-opentype"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.woff2) format("woff2"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.woff) format("woff"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.ttf) format("truetype"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Regular.svg#eicon) format("svg");
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: 'ESL Legend';
+    src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.eot);
+    src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.eot#iefix) format("embedded-opentype"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.woff2) format("woff2"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.woff) format("woff"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.ttf) format("truetype"),
+    url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/fonts/legend/ESLLegend-Bold.svg#eicon) format("svg");
+    font-style: normal;
+    font-weight: bold;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .ag-format-container {
+    width: 1160px;
+    margin: 0 auto;
+  
+    position: relative;
+  }
+  
+  .ag-timeline-block {
+    padding: 300px 0;
+  }
+  .ag-timeline_title-box {
+    padding: 0 0 30px;
+  
+    text-align: center;
+  }
+  .ag-timeline_tagline {
+    font-size: 40px;
+    color: rgb(84, 89, 95);
+  }
+  .ag-timeline_title {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-fill-color: transparent;
+    color: transparent;
+  
+    font-size: 80px;
+  }
+  
+  .ag-timeline_item {
+    margin: 0 0 50px;
+  
+    position: relative;
+  }
+  .ag-timeline_item:nth-child(2n) {
+    text-align: right;
+  }
+  
+  .ag-timeline {
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  
+    position: relative;
+  }
+  .ag-timeline_line {
+    width: 2px;
+    background-color: #393935;
+  
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    bottom: 0;
+  
+    overflow: hidden;
+  
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  
+  .ag-timeline_line-progress {
+    width: 100%;
+    height: 20%;
+    background-color: blue;
+  }
+  
+  .ag-timeline-card_box {
+    padding: 0 0 20px 50%;
+  }
+  .ag-timeline_item:nth-child(2n) .ag-timeline-card_box {
+    padding: 0 50% 20px 0;
+  }
+  .ag-timeline-card_point-box {
+    display: inline-block;
+    margin: 0 14px 0 -28px;
+  }
+  .ag-timeline_item:nth-child(2n) .ag-timeline-card_point-box {
+    margin: 0 -28px 0 14px;
+  }
+  .ag-timeline-card_point {
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    border: 3px solid blue;
+    background-color: #1d1d1b;
+  
+    text-align: center;
+    font-family: 'ESL Legend', sans-serif;
+    font-size: 20px;
+    color: #FFF;
+  
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+  .js-ag-active .ag-timeline-card_point {
+    color: #1d1d1b;
+    background-color:blue;
+  }
+  .ag-timeline-card_meta-box {
+    display: inline-block;
+  }
+  .ag-timeline-card_meta {
+    margin: 10px 0 0;
+  
+    font-family: 'ESL Legend', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: blue;
+  }
+  .ag-timeline-card_item {
+    display: inline-block;
+    width: 20%;
+    height : 20%;
+    margin: -77px 300px 0 ;
+    background-color: white;
+  
+    opacity: 0;
+  
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+  
+    -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,.5);
+    -moz-box-shadow: 0 0 0 0 rgba(0,0,0,.5);
+    -o-box-shadow: 0 0 0 0 rgba(0,0,0,.5);
+    box-shadow: 0 0 0 0 rgba(0,0,0,.5);
+  
+    -webkit-transition: -webkit-transform .5s, opacity .5s;
+    -moz-transition: -moz-transform .5s, opacity .5s;
+    -o-transition: -o-transform .5s, opacity .5s;
+    transition: transform .5s, opacity .5s;
+  
+    position: relative;
+  }
+  .ag-timeline_item:nth-child(2n+1) .ag-timeline-card_item {
+    -webkit-transform: translateX(-200%);
+    -moz-transform: translateX(-200%);
+    -ms-transform: translateX(-200%);
+    -o-transform: translateX(-200%);
+    transform: translateX(-200%);
+  }
+  .ag-timeline_item:nth-child(2n) .ag-timeline-card_item {
+    -webkit-transform: translateX(200%);
+    -moz-transform: translateX(200%);
+    -ms-transform: translateX(200%);
+    -o-transform: translateX(200%);
+    transform: translateX(200%);
+  }
+  .js-ag-active.ag-timeline_item:nth-child(2n+1) .ag-timeline-card_item,
+  .js-ag-active.ag-timeline_item:nth-child(2n) .ag-timeline-card_item {
+    opacity: 1;
+  
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+  .ag-timeline-card_arrow {
+    height: 18px;
+    width: 18px;
+    margin-top: 20px;
+    background-color: white;
+  
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+  
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .ag-timeline_item:nth-child(2n+1) .ag-timeline-card_arrow {
+    margin-left: calc(-18px / 2);
+    margin-right: calc(-18px / 2);
+  }
+  .ag-timeline_item:nth-child(2n) .ag-timeline-card_arrow {
+    margin-left: -10px;
+  
+    right: auto;
+    left: 0;
+  }
+  .ag-timeline-card_img {
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 150%;
+    height: 50%
+  
+  }
+  .ag-timeline-card_info {
+    padding: 20px 30px;
+  }
+  .ag-timeline-card_title {
+    display: none;
+    margin: 10px 0 0;
+  
+    font-family: 'ESL Legend', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: blue;
+  }
+  .ag-timeline-card_desc {
+    line-height: 1.45;
+  
+    font-size: 16px;
+    color: black;
+  }
+  
+  
+  @media only screen and (max-width: 979px) {
+    .ag-timeline_line {
+      left: 30px;
+    }
+  
+    .ag-timeline_item:nth-child(2n) {
+      text-align: left;
+    }
+  
+    .ag-timeline-card_box,
+    .ag-timeline_item:nth-child(2n) .ag-timeline-card_box {
+      padding: 0 0 20px;
+    }
+    .ag-timeline-card_meta-box {
+      display: none;
+    }
+    .ag-timeline-card_point-box,
+    .ag-timeline_item:nth-child(2n) .ag-timeline-card_point-box {
+      margin: 0 0 0 8px;
+    }
+    .ag-timeline-card_point {
+      height: 40px;
+      line-height: 40px;
+      width: 40px;
+    }
+    .ag-timeline-card_item {
+      width: auto;
+      margin: -65px 0 0 75px
+    }
+    .ag-timeline_item:nth-child(2n+1) .ag-timeline-card_item,
+    .ag-timeline_item:nth-child(2n) .ag-timeline-card_item {
+      -webkit-transform: translateX(200%);
+      -moz-transform: translateX(200%);
+      -ms-transform: translateX(200%);
+      -o-transform: translateX(200%);
+      transform: translateX(200%);
+    }
+    .ag-timeline_item:nth-child(2n+1) .ag-timeline-card_arrow {
+      right: auto;
+      left: 0;
+    }
+    .ag-timeline-card_title {
+      display: block;
+    }
+    .ag-timeline-card_arrow {
+      margin-top: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .ag-format-container {
+      width: 96%;
+    }
+  
+    .ag-timeline-card_img {
+      height: auto;
+      width: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 639px) {
+    .ag-timeline_title {
+      font-size: 60px;
+    }
+  
+    .ag-timeline-card_info {
+      padding: 10px 15px;
+    }
+    .ag-timeline-card_desc {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 479px) {
+  
+  }
+  
+  @media (min-width: 768px) and (max-width: 979px) {
+    .ag-format-container {
+      width: 750px;
+    }
+  
+  }
+  
+  @media (min-width: 980px) and (max-width: 1161px) {
+    .ag-format-container {
+      width: 960px;
+    }
+  
+  }
+</style>
+
+
+  <section id="timeline">
+    
+          <div class="user-details">
+            <h1>My Journey</h1>
+            </div>
+        <section class="ag-section">
+          <div class="ag-format-container">
+            <div class="js-timeline ag-timeline">
+              <div class="js-timeline_line ag-timeline_line">
+                <div class="js-timeline_line-progress ag-timeline_line-progress"></div>
+              </div>
+              <div class="ag-timeline_list">
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">Aug-18</div>
+                    </div>
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">Joined IIT Dharwad</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="assets\img\jpg\dharwad_2.jpg" class="ag-timeline-card_img" width="640" height="560" />
+                      </div>
+                      <div class="ag-timeline-card_info">
+                        <div class="ag-timeline-card_title"></div>
+                        <div class="ag-timeline-card_desc">
+                          Started pursuing B.Tech in Electrical Engineering from IIT Dharwad (2018-2022)
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+      
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">Inter IIT Sports Meet 2018</div>
+                    </div>
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">Dec-18</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="assets\img\jpg\Inter_18.png" class="ag-timeline-card_img" width="1840" height="560" alt="" />
+                      </div>
+                      <div class="ag-timeline-card_info">
+                        <div class="ag-timeline-card_title"></div>
+                        <div class="ag-timeline-card_desc">
+                          Respresented IIT-Dh, as a Badminton Player at Inter IIT Sports Meet - 2018, IIT Guwahati.
+                        
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+      
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">Aug-19</div>
+                    </div>
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">Student Mentor, IIT Dharwad</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="assets\img\jpg\smp.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                      </div>
+                      <div class="ag-timeline-card_info">
+                        <div class="ag-timeline-card_title">Student Mentor, IIT Dharwad</div>
+                        <div class="ag-timeline-card_desc">
+                          Selected as Student Mentor, where 
+                          I assisted the Freshers in all the academic, co-curricular activities.
+                          
+                                               
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+      
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">Inter IIT Sports Meet 2019</div>
+                    </div>
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">Dec-19</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="assets\img\jpg\interiit.png" class="ag-timeline-card_img" width="60" height="360" alt="" />
+                      </div>
+                      <div class="ag-timeline-card_info">
+                        <div class="ag-timeline-card_title">Season 10</div>
+                        <div class="ag-timeline-card_desc">
+                          Respresented IIT-Dh for the second time, as a Badminton Player at Inter IIT Sports Meet - 2019, IIT Bhubaneswar.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+      
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">Jan-20</div>
+                    </div>
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">First Position at DevHack 2.0</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="assets\img\jpg\Parsec.JPG" class="ag-timeline-card_img" width="6400px" height="3600px" alt="" />
+                      </div>
+                      <div class="ag-timeline-card_info">
+                        <div class="ag-timeline-card_title">Season 9</div>
+                        <div class="ag-timeline-card_desc">
+                          Made "Interactive Glove" - which converts sign language to text for speech impaired people.
+                        
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+      
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">Together-21</Together-21></div>
+                    </div>
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">Jan-21</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="assets\img\jpg\together.jpg" class="ag-timeline-card_img" style="width:50; height:auto;" alt="" />
+                      </div>
+                      <div class="ag-timeline-card_info">
+                        <div class="ag-timeline-card_title">Season 8</div>
+                        <div class="ag-timeline-card_desc">
+                          Selected among the top 50 teams for Together 2021, an entrepreneurship bootcamp, and competition, organised jointly by Startup India and Schulich School of Business - York University .
+
+                     
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">Jun-21</div>
+                    </div>
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">SURGE Research Internship, IIT Kanpur</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="assets\img\jpg\surge.jpg" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                      </div>
+                      <div class="ag-timeline-card_info">
+                        <div class="ag-timeline-card_title">Season 9</div>
+                        <div class="ag-timeline-card_desc">
+                          Selected for SURGE Research Internship, IIT Kanpur and worked under Prof. Ashutosh Modi, 
+                          CSE IIT K, in the field of Legal NLP (June 2021 - Aug 2021)
+                        
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">Project Intern, LG SOFT India</Together-21></div>
+                    </div>
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">Sept-21</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="assets\img\jpg\LG.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                      </div>
+                      <div class="ag-timeline-card_info">
+                        <div class="ag-timeline-card_title">Season 8</div>
+                        <div class="ag-timeline-card_desc">
+                            Worked on a project of Video compatibility test and artifacts detection for HBBTV, in the Home 
+                            Entertainment Department, LG Soft India. (Sept 21 - Dec 21)
+                     
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+
+                <div class="js-timeline_item ag-timeline_item">
+                  <div class="ag-timeline-card_box">
+                    <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                      <div class="ag-timeline-card_point">Jan-22</div>
+                    </div>
+                    <div class="ag-timeline-card_meta-box">
+                      <div class="ag-timeline-card_meta">Data Science Intern, Ushur</div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_item">
+                    <div class="ag-timeline-card_inner">
+                      <div class="ag-timeline-card_img-box">
+                        <img src="assets\img\jpg\ushur.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                      </div>
+                      <div class="ag-timeline-card_info">
+                        <div class="ag-timeline-card_title">Season 9</div>
+                        <div class="ag-timeline-card_desc">
+                          Currently working as a Data Science Intern, at Ushur Technologies.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ag-timeline-card_arrow"></div>
+                  </div>
+                </div>
+
+
+               
+            </div>
+          </div>
+        </section>
+      </div>
+  </section>
+
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <footer class="footer">
+      <p>&copy; Vaishnavi Patil, 2020</p>
+    </footer>
+    <!-- Import JS: Particles Theme -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Import JS: Sweet Scroll -->
+    <script src="./assets/js/sweet-scroll.min.js"></script>
+    <!-- Import JS: Google Analytics -->
+    <script src="./assets/js/google-analytics.js"></script>
+    <!-- Import JS: Main Script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
