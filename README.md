@@ -6,4 +6,4 @@
 
  <p align="justify">This website serves as an online portfolio to showcase my web presence, résumé, story, & featured projects.</p>
  
-Please hit me up at vaishshells@gmail.com if you have any feedback or ideas for the website. Leave a :star: &nbsp;if you like it!
+Please ping me at vaishshells@gmail.com if you have any feedback or ideas for the website. Leave a :star: &nbsp;if you like it!
