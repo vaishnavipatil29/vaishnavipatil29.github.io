@@ -1,9 +1,8 @@
 # <a href="https://vaishnavipatil29.github.io/" target="_blank">My Portfolio Website</a>
 
-[![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg)](https://github.com/AVS1508/My-Alternate-Portfolio-Website/)
-[![Website Status](https://img.shields.io/badge/Website%20Status-Online-green)](https://people.umass.edu/avsingh)
-[![Author](https://img.shields.io/badge/Author-Aditya%20Vikram%20Singh-blue.svg)](https://www.linkedin.com/in/AVS1508/)
-[![Latest Release](https://img.shields.io/badge/Latest%20Release-13%20June%202021-yellow.svg)](https://github.com/AVS1508/My-Alternate-Portfolio-Website/commit/master)
+[![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg)](https://github.com/vaishnavipatil29/vaishnavipatil29.github.io/)
+[![Website Status](https://img.shields.io/badge/Website%20Status-Online-green)](https://vaishnavipatil29.github.io)
+[![Author](https://img.shields.io/badge/Author-Vaishnavi%20Patil20-blue.svg)](https://www.linkedin.com/in/vaishnavi-patil-75a714173//)
 
  <p align="justify">This website serves as an online portfolio to showcase my web presence, résumé, story, & featured projects.</p>
  
